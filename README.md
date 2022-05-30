@@ -1,1 +1,1 @@
-# DevExpress.Auto
+# DevEXpress
