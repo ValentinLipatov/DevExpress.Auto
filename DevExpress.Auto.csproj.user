@@ -2,13 +2,31 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup />
   <ItemGroup>
-    <Compile Update="Auto\Controls\TextControl.cs">
+    <Compile Update="UI\Controls\ButtonControl.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Update="Auto\Controls\XMLTextControl.cs">
+    <Compile Update="UI\Controls\BooleanControl.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Update="Auto\Forms\Form.cs">
+    <Compile Update="UI\Controls\FolderStringControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="UI\Controls\HTMLStringControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="UI\Controls\Int32Control.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="UI\Controls\StringControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="UI\Controls\XMLStringControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="UI\Forms\BaseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UI\Forms\DetailForm.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>

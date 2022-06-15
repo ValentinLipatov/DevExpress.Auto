@@ -4,7 +4,7 @@
     <OutputType>WinExe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <UseWindowsForms>true</UseWindowsForms>
-    <ApplicationIcon></ApplicationIcon>
+    <ApplicationIcon>Icon.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>
@@ -57,10 +57,13 @@
     <Compile Update="Auto\Controls\FolderTextControl.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Update="Auto\Forms\Form.cs" />
+    <Compile Update="Auto\Forms\DetailForm.cs" />
     <Compile Update="IControl.cs" />
     <Compile Update="Auto\Forms\BaseForm.cs">
       <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UI\Controls\UInt32Control.cs">
+      <SubType>Component</SubType>
     </Compile>
   </ItemGroup>
 
@@ -68,10 +71,9 @@
     <None Update="Configuration.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Workspaces\" />
+    <None Update="Workspaces\XML.DetailForm.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>

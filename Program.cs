@@ -11,9 +11,7 @@ namespace XML
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            var form = new Form();
-            form.Show(new XML());
-            Application.Run(form);
+            Application.Run(new DetailForm(new XML()));
         }
     }
 }
